@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ........Google fonts........... -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- ........fontawesome......... -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Outline CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Eduford Univesity</title>
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+    
+            <a href="index.html"><img src="imgs/logo.png" alt=""></a>
+           
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+<!-- -----------CONTACT US------------ -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28988.8931195028!2d69.78434244943767!3d24.740209759840493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394fb1312740ee07%3A0x4972c8faabebf63c!2sMithi%2C%20Tharparkar%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1635756216926!5m2!1sen!2s" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-us-col">
+                <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>Home no.5, street no. 4, XYX building</h5>
+                        <p>Mithi, sindh, Pak</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h5>+92 20202 20304</h5>
+                        <p>Avalable form 8am till 5pm from Monday to Saturday </p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h5>xyxsdu@gmail.com</h5>
+                        <p>Email us your Queries</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-us-col">
+                <form action="">
+                    <input type="text" placeholder="Your name" required>
+                    <input type="text" placeholder="Your email" required>
+                    <input type="text" placeholder="Your subject" required>
+                    <textarea name="" id="" rows="8" placeholder="Your message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- ----------Footer-------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Sint voluptatibus, nostrum voluptatem nam provident et sed consectetur cum id at?</p>
+        <div class="icons">
+            <a href="https://web.facebook.com/"> <i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        </div>   
+        <p>Mady By <i class="fas fa-at"></i> Sudharth Moorani <br> All Rights Are Reserved</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
